@@ -1,1 +1,0 @@
-# kota_site
