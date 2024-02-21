@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 650px){
+
+.ewYWpk {
+    margin: 5rem auto;
+    width: 90%;
+}
+.ewYWpk h1 {
+    max-width: 8ch;
+    font-size: 3.09rem;
+    line-height: 1.15;
+    margin-left: 12px;
+}
+.ull {
+    margin-left: -25px;
+    display: flex;
+    font-size: 20px; 
+}
+.lii span{
+    font-size: 170px;
+}
+.iaIrkk{
+   width: 100%;
+   padding: 20px;
+   margin-left: 0;
+}
+.iyVglM{
+    width: 100%;
+}
+.gkmavN{
+/* margin-top: 30px; */
+margin-left: 0;
+font-size: 25px;
+
+}
+.iUgDtF{
+margin-left: 0.5rem;
+}
+.jsILAK p{
+    font-size: 27px;
+    font-weight: 900;
+    /* margin-top: -250px; */
+    /* padding-top: 150px; */
+}
+.jsILAK p strong{
+    font-weight: 900;
+}
+/* .jsILAK {
+    margin-bottom: 10px;
+} */
+.fzvQYg{
+    padding: 0px ;
+}
+.iApiFE{
+    left: -1.4rem;
+    font-size: 9px;
+}
+.gEUhAT{
+    font-size: 25px;
+    font-weight: 800;
+    /* margin-top: -115px; */
+    padding-top: 0;
+}
+.ekewUD{
+    width: 100%;
+}
+.ebuHcF{
+    margin-top: -85px;
+}
+.dFXLop{
+    width: 275px
+}
+.kmwYW{
+    display: block;
+}
+.lfdmct{
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.losBaI{
+    width: 100%;
+}
+.kmRuLX{
+    font-size: 29px;
+    margin-left: 0;
+    text-align: center;
+}
+.kmwYW{
+    padding-top: 20px;
+}
+.demo{
+    display: list-item;
+}
+.ivtdlH{
+    margin-bottom: 10px;
+}
+.eDpAQB:nth-child(4n+1) {
+    width: 100%;
+}
+.bsKNkf h2{
+    font-size: 30px;
+}
+.eDpAQB {
+    width: calc(100% - 2rem);
+}
+.eDpAQB:nth-child(4n) {
+    width: 100%;
+}
+.gGKxrU {
+    width: 49.5%;
+    height: 100px;
+    margin: 0px;
+}
+.gowSxm{
+    display: block;
+    border: none;
+}
+.cNExhP{
+    border: none;
+}
+.foot{
+    width: 100%;
+}
+.footer2-col{
+    margin: 0px 0px 0px 0px;
+}
+.social-links{
+    display: flex;
+}
+.footer2-col.fc{
+    margin-left: 80px !important;
+}
+}
+
+@media (max-width:280px){
+
+}
+
+@media (max-width: 1024px){
+
+.ewYWpk {
+    position: relative;
+    top: unset;
+    left: 0px;
+    width: 80%;
+    margin: 5rem auto;
+    transform: translateY(0px);
+    text-align: center;
+    max-width: 450px;
+}
+}
