@@ -385,7 +385,7 @@ p {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(to right, #8f85ee, #13cec8, #fc56c6, #b270fe);
+    background-image: linear-gradient(to right,#fc56c6, #8f85ee, #13cec8,  #b270fe);
     background-size: 400% 100%;
     transition: background-position 0.5s;
     margin-left: 10px;
