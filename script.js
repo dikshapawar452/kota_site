@@ -70,6 +70,13 @@ class HoverText {
     });
   
 
+    document.querySelectorAll(' span').forEach(span => {
+      new HoverText(span);
+    });
+    document.querySelectorAll(' span').forEach(span => {
+      new HoverText(span);
+    });
+
 // -----header-----
 
 window.onscroll = function() {myFunction()};
