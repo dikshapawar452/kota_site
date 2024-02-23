@@ -65,17 +65,17 @@ class HoverText {
       this.el.style.zIndex = 1;
     }}
   
-    document.querySelectorAll('span').forEach(span => {
+    document.querySelectorAll('.lii span').forEach(span => {
+      new HoverText(span);
+    });
+    document.querySelectorAll('.lii1 span').forEach(span => {
+      new HoverText(span);
+    });
+    document.querySelectorAll('.lii2 span').forEach(span => {
       new HoverText(span);
     });
   
 
-    document.querySelectorAll(' span').forEach(span => {
-      new HoverText(span);
-    });
-    document.querySelectorAll(' span').forEach(span => {
-      new HoverText(span);
-    });
 
 // -----header-----
 
