@@ -366,7 +366,7 @@ p {
 /* ============= */
 .leftul{
     text-align: center;
-    margin-top: 11%;
+    padding-top: 11%;
 }
 .ull {
     /* padding: 0; */
@@ -803,7 +803,7 @@ p {
 /* ===== */
 .dmOYQm {
     width: 100%;
-    margin-bottom: 2.5rem;
+    /* margin-bottom: 2.5rem; */
     padding: 9rem 0px 4.5rem;
     
 }
@@ -1336,7 +1336,7 @@ color: rgb(247, 78, 161);
 .eMljeX {
     position: relative;
     /* height: 100%; */
-    margin-top: 5%;
+    padding-top: 5%;
 }
 .eCJLel {
     width: 100%;
