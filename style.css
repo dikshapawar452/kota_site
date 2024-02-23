@@ -306,7 +306,7 @@ p {
 }
 .header a {
     display: block;
-    padding: 25px;
+    padding: 18px;
     transition: background-color 300ms ease-in;
 }
 .navbar-brand {
