@@ -279,7 +279,7 @@ p {
     padding-top: 60px;
     width: 100%;
     height: 100%;
-    background-color: #eee;
+    background-color: #ffffff;
     padding-right: 5.7px;
     color: #eee;
     transition: opacity 300ms ease-in, visibility 0s ease-in 300ms;
@@ -444,7 +444,7 @@ p {
 /* ========= */
 .ivtdlH {
     width: 100%;
-    margin-bottom: 12rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     -webkit-box-pack: start;
@@ -604,7 +604,7 @@ p {
     align-items: center;
     margin: 0px auto;
     max-width: 80%;
-    padding-bottom: 10rem;
+    padding-bottom: 0rem;
     padding-top: 1rem;
 }
 
@@ -804,7 +804,7 @@ p {
 .dmOYQm {
     width: 100%;
     margin-bottom: 2.5rem;
-    padding: 20rem 0px 12.5rem;
+    padding: 9rem 0px 4.5rem;
     
 }
 .iaycda {
@@ -816,7 +816,7 @@ p {
 .dGZvSn {
     color: #373737;
     font-family: Sofia, sans-serif;
-    font-size: 50px;
+    font-size: 39px;
     letter-spacing: -0.075rem;
     margin-bottom: 4rem;
     text-align: center;
@@ -865,7 +865,7 @@ p {
 .btTStV {
     color: rgb(55, 55, 55);
     font-family: Sofia, sans-serif;
-    font-size: 47px;
+    font-size: 39px;
     letter-spacing: -0.075rem;
     margin-bottom: 5rem;
     font-weight: 900;
@@ -949,7 +949,7 @@ p {
 }
 .gJNZwu{
 display: flex;
-margin-top: 10%;
+margin-top: 8%;
 }
 /* --------------- */
 
@@ -961,13 +961,13 @@ margin-top: 10%;
 .fpQsSy {
     position: relative;
     max-width: 100%;
-    padding: 0.5rem 8% 8rem;
+    padding: 4.5rem 8% 3rem;
     /* z-index: 5; */
 }
 .ZVfqa {
     color: rgb(247, 78, 161);
     font-family: figtree, sans-serif;
-    font-size: 3.5rem;
+    font-size: 45px;
     letter-spacing: -0.075rem;
     margin-left: 2.5rem;
     text-align: center;
@@ -984,8 +984,8 @@ margin-top: 10%;
 }
 .hMpbHD {
     position: relative;
-    width: 125px;
-    height: 125px;
+    width: 120px;
+    height: 120px;
     margin: 0px auto 2rem;
     display: flex;
     -webkit-box-pack: center;
@@ -1029,7 +1029,7 @@ margin-top: 10%;
     flex-wrap: wrap;
     -webkit-box-align: center;
     align-items: center;
-    padding: 10% 3.5%;
+    padding: 4% 3.5%;
     margin: 0% 0px;
 }
 .hGHAxY {
@@ -1048,7 +1048,7 @@ margin-top: 10%;
 .pHXpt {
     color: rgb(36, 36, 36);
     font-family: Sofia, sans-serif;
-    font-size: 42px;
+    font-size: 39px;
     letter-spacing: -0.075rem;
     margin-bottom: 1.5rem;
     font-weight: 900;
@@ -1057,7 +1057,7 @@ margin-top: 10%;
     color: rgb(36, 36, 36);
     font-family: Figtree, sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.9;
 }
 .hGHAxY a {
@@ -1292,7 +1292,7 @@ color: rgb(247, 78, 161);
 .ZSuxQ {
     font-family: figtree, sans-serif;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.75;
     margin-top: 3rem;
 }
@@ -1359,7 +1359,7 @@ color: rgb(247, 78, 161);
 }
 .qwwRp {
     width: 100%;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 .jcYJSd {
     display: flex;
@@ -1379,7 +1379,7 @@ color: rgb(247, 78, 161);
 .kDofil h2 {
     color: rgb(36, 36, 36);
     font-family: Sofia, sans-serif;
-    font-size: 57px;
+    font-size: 42px;
     letter-spacing: -0.075rem;
     font-weight: 900;
 }
@@ -1461,7 +1461,7 @@ color: rgb(247, 78, 161);
 
 .qwwRpp{
 font-family: figtree, sans-serif;
-    font-size: 35px;
+    font-size: 31px;
     font-weight: 700;
     color: #373737;
 }
@@ -1500,7 +1500,7 @@ color: rgb(247, 78, 161);
 
 .JdGLl {
     position: relative;
-    padding: 10rem 15%;
+    padding: 0rem 15%;
     margin: 0rem auto 6rem;
     display: flex;
     -webkit-box-pack: center;
@@ -1516,7 +1516,7 @@ color: rgb(247, 78, 161);
     height: 1px;
 }
 .eVPTlv {
-    font-size: 50px;
+    font-size: 35px;
     line-height: 0.8;
     color: rgb(247, 78, 161);
     font-family: figtree, sans-serif;
@@ -1536,7 +1536,7 @@ color: rgb(247, 78, 161);
     padding: 1rem 1.5rem;
     color: rgb(255, 255, 255);
     font-family: figtree, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
