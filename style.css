@@ -567,8 +567,8 @@ p {
     justify-content: space-between;
     -webkit-box-align: center;
     align-items: center;
-    padding-top: 15rem;
-    margin: 0px auto 10rem;
+    padding-top: 3rem;
+    margin: 0px auto 3rem;
     max-width: 80%;
 }
 .lfdmct {
@@ -588,7 +588,7 @@ p {
 .kmRuLX {
     color: rgb(255, 255, 255);
     font-family: figtree, sans-serif;
-    font-size: 49px;
+    font-size: 43px;
     letter-spacing: -0.075rem;
     margin-left: 2.5rem;
     margin-top: 0.5rem;
@@ -605,7 +605,7 @@ p {
     margin: 0px auto;
     max-width: 80%;
     padding-bottom: 0rem;
-    padding-top: 1rem;
+    padding-top: 0rem;
 }
 
 .eDpAQB:nth-child(4n+1) {
