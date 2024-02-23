@@ -321,7 +321,7 @@ p {
     left: 0;
     padding: 0 25px;
     /*BAR HOW MUCH IN RIGHT*/
-    background-color: white;
+    /* background-color: white; */
 }
 .test {
     top: 0;
@@ -344,6 +344,8 @@ p {
         visibility: visible;
         opacity: 1;
         text-align: right;
+        box-shadow: 0 4px 8px 0 rgb(111 111 111 / 20%), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        overflow-y: hidden;
     }
     .header li {
         display: inline-block;
@@ -353,7 +355,7 @@ p {
         text-align: left;
     }
     .header a {
-        padding: 15px 35px;
+        padding: 20px 20px;
         font-weight: 700;
     font-size: 16px;
         /*header height and text spacing*/
@@ -1220,7 +1222,7 @@ color: rgb(247, 78, 161);
     position: relative;
     color: rgb(0, 0, 0);
     font-family: Sofia, sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 900;
     letter-spacing: -0.2rem;
     margin-bottom: 3rem;
@@ -1234,7 +1236,7 @@ color: rgb(247, 78, 161);
     border: 0.2rem solid rgb(255, 255, 255);
     padding: 15px 19px 15px 20px;
     color: rgb(255, 255, 255);
-    font-family: Circular, sans-serif;
+    font-family: figtree, sans-serif;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1475,7 +1477,7 @@ color: rgb(247, 78, 161);
     align-items: center;
     position: absolute;
     left: 5rem;
-    bottom: 5rem;
+    bottom: 3rem;
     width: 575px;
 }
 .dLKnru {
@@ -1555,7 +1557,7 @@ color: rgb(247, 78, 161);
   .lii1 {
     display: inline-block;
     list-style-type: none;
-    margin: 0 18px;
+    margin: 0 3px;
   }
   .lii1 span {
     font-family: Verdana;
@@ -1580,7 +1582,7 @@ color: rgb(247, 78, 161);
   .lii2 {
     display: inline-block;
     list-style-type: none;
-    margin: 0 39px;
+    margin: 0 22px;
   }
   .lii2 span {
     font-family: Verdana;
@@ -1597,3 +1599,6 @@ color: rgb(247, 78, 161);
     margin-left: 10px;
     background-color: #f74ea1;
   }
+
+
+  /* ====== */
