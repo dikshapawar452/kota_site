@@ -1203,7 +1203,7 @@ color: rgb(247, 78, 161);
 }
 
 .bXXeaa {
-    width: 40%;
+    width: 46%;
 }
 .fNPpSW {
     color: rgb(255, 255, 255);
@@ -1251,7 +1251,7 @@ color: rgb(247, 78, 161);
 }
 .erPLhU {
     position: relative;
-    width: 55%;
+    width: 50%;
 }
 .bTXyGy.active {
     color: rgb(255, 255, 255);
@@ -1493,6 +1493,8 @@ color: rgb(247, 78, 161);
 .wrappp img{
     width: 521px;
     height: 351px;
+    /* width: 100%;
+    height: auto; */
 }
 
 
