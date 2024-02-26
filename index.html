@@ -166,10 +166,26 @@
                     <div class="WrapImage-sc-12a4fgj-5 hMpbHD"><img src="assets/skylogoo.webp" style="width: 60px;">
                     </div>
                     <p class="ResultText-sc-12a4fgj-6 cfmjsj">Username - vrnldemo</p>
+
+                    <i class="fas fa-copy copy-icon" id="copy-icons-u1"
+                    onclick="copyToClipboard('vrnldemo1', 'vrnldemo1', 'copy-success-vrnldemo1','copy-icons-u1')"
+                    style="display: inline;"></i>
+                <i class="fa-solid fa-check copy-success" id="copy-success-vrnldemo1"
+                    style="display: none;"></i>
+
                     <p class="ResultText-sc-12a4fgj-6 cfmjsj">Password - Asdf1234</p>
+
+                    <i class="fa-solid fa-copy copy-icon" id="copy-icon0"
+                    onclick="copyToClipboard('password1', 'password1', 'copy-success-password1','copy-icon0')"
+                    style="display: inline;"></i>
+                <i class="fas fa-check copy-success icon" id="copy-success-password1"
+                    style="display: none;"></i>
+
                     <div class="demoo">
                         <a href="https://skyexch.vrnlexch.com/#/dash" target="_blank" class=" btn"
                             aria-label="Visit Site">Visit Site</a>
+
+
                     </div>
                 </div>
                 <div class="ResultItem-sc-12a4fgj-4 cZkBXq" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
@@ -930,6 +946,33 @@
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script>
     <script src="script.js"></script>
+
+
+    <script>
+        function copyToClipboard(sourceId, targetId, successIconId, copyIconId) {
+            var sourceElement = document.getElementById(sourceId);
+            if (!sourceElement) {
+                console.error('Source element not found.');
+                return;
+            }
+            var tempInput = document.createElement('input');
+            tempInput.value = sourceElement.textContent;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            var successIcon = document.getElementById(successIconId);
+            var copyIcon = document.getElementById(copyIconId);
+            if (successIcon && copyIcon) {
+                copyIcon.style.display = 'none'; // Hide the fa-copy icon
+                successIcon.style.display = 'inline';
+                setTimeout(function () {
+                    successIcon.style.display = 'none';
+                    copyIcon.style.display = 'inline'; // Show the fa-copy icon after 2 seconds
+                }, 2000);
+            }
+        }
+    </script>
 </body>
 
 </html>
