@@ -5,10 +5,15 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    overflow-x: hidden;
+}
+
 .btn {
     font-family: "figtree", sans-serif;
     color: #fff !important;
-    background-color: #ff0d64d6 !important;
+    /* background-color: rgb(247, 78, 161) !important; */
+    background-color: rgb(175, 9, 84) !important;
     font-weight: 700;
     font-size: 16px;
     border-radius: 0;
@@ -59,22 +64,6 @@ table {
 }
 img {
     border: none!important;
-}
-@media only screen and (max-width: 600px) {
-    body[yahoo] .full_width_600 {
-        width: 90% !important;
-    }
-}
-@media only screen and (max-width: 700px) {
-    body[yahoo] .full_width_700 {
-        width: 100% !important;
-    }
-    body[yahoo] .txt_center {
-        text-align: center !important;
-    }
-    body[yahoo] .separator {
-        height: 40px !important;
-    }
 }
 .bg-gradient1 span,
 .bg-gradient1:before {
@@ -313,8 +302,8 @@ p {
     padding: 0px;
 }
 .navbar-brand>img {
-    height: 40px;
-    width: auto;
+    height: auto;
+    width: 200px;
     z-index: 10;
     position: fixed;
     top: 13.45px;
@@ -329,38 +318,7 @@ p {
     position: fixed;
     z-index: 7;
 }
-@media (min-width: 1000px) {
-    .mobile-bar {
-        display: none;
-    }
-    .header {
-        z-index: 5;
-        position: relative;
-        left: 0;
-        padding-top: 0;
-        width: 100%;
-        height: 75px;
-        overflow: auto;
-        visibility: visible;
-        opacity: 1;
-        text-align: right;
-        box-shadow: 0 4px 8px 0 rgb(111 111 111 / 20%), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        overflow-y: hidden;
-    }
-    .header li {
-        display: inline-block;
-        margin-right: -6px;
-        /* fix the inline-block gap */
-        border: none;
-        text-align: left;
-    }
-    .header a {
-        padding: 20px 20px;
-        font-weight: 700;
-    font-size: 16px;
-        /*header height and text spacing*/
-    }
-}
+
 /* ====header-ends==== */
 
 /* ============= */
@@ -396,12 +354,6 @@ p {
   .lii span:hover {
     background-position: 100% 0;
   }
-
-
-
-.main{
-    /* margin-top: 10%; */
-}
 .hwTFWH {
     position: relative;
     min-height: 100vh;
@@ -412,8 +364,9 @@ p {
     position: absolute;
     width: 50%;
     height: auto;
-    top: 18%;
-    right: 0rem;
+    top: 21%;
+    /* right: 0rem; */
+    left:48rem;
     /* transform: translateY(-50%); */
     z-index: -5;
 }
@@ -1062,9 +1015,11 @@ margin-top: 8%;
 }
 .hGHAxY a {
     background: transparent;
-    border: 2px solid rgb(247, 78, 161);
+    /* border: 2px solid rgb(247, 78, 161); */
+    border: 2px solid rgb(175, 9, 84);
     padding: 0.8rem 2.25rem;
-    color: rgb(247, 78, 161);
+    /* color: rgb(247, 78, 161); */
+    color: rgb(175, 9, 84);
     font-family: Figtree, sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -1114,7 +1069,7 @@ DISPLAY: FLEX;
 }
 .footer-p {
     font-weight: bolder;
-    font-size: 19px;
+    font-size: 17px;
     color: #fff;
     border-bottom: 3px solid #e91e63;
     width: 100px;
@@ -1168,19 +1123,16 @@ color: rgb(247, 78, 161);
 .demoo{
     margin-top: 15%;
 }
-
-
-
 /* ==================== */
 .jABQGp {
     position: relative;
     margin: 0px auto;
 }
 .gmoqIO {
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -1507,7 +1459,7 @@ color: rgb(247, 78, 161);
     height: 1px;
 }
 .eVPTlv {
-    font-size: 35px;
+    font-size: 40px;
     line-height: 0.8;
     color: rgb(247, 78, 161);
     font-family: figtree, sans-serif;
@@ -1522,8 +1474,10 @@ color: rgb(247, 78, 161);
     display: inline-block;
 }
 .otNoI {
-    background: rgb(247, 78, 161);
-    border: 0.2rem solid rgb(247, 78, 161);
+    /* background: rgb(247, 78, 161); */
+    /* border: 0.2rem solid rgb(247, 78, 161); */
+    border: 2px solid rgb(175, 9, 84);
+    background-color: rgb(175, 9, 84);
     padding: 1rem 1.5rem;
     color: rgb(255, 255, 255);
     font-family: figtree, sans-serif;
@@ -1588,3 +1542,132 @@ color: rgb(247, 78, 161);
     margin-left: 10px;
     background-color: #f74ea1;
   }
+ .hover_text{
+    width: 82%;
+    color: rgb(36, 36, 36);
+    font-family: figtree, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.45;
+    margin: 0px auto;
+    text-align: center;
+
+  }
+  .copied{
+    color: rgb(86, 86, 86);
+    cursor: pointer;
+  }
+  .container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+ 
+    width: 200%;
+  
+  }
+  
+  h1 {
+    /* text-align: center; */
+    margin: 30px 0;
+  }
+  
+  
+  .slider-wrapper {
+    width: 50%;
+    height: 100%;
+  
+    /* background-image: url(/assets/horse-racing-api.webp) !important; */
+    background-repeat: no-repeat;
+  
+    overflow: hidden;
+  }
+  
+  .inner-wrapper {
+    width: 500%;
+    height: 100%;
+    position: relative;
+    left: -100%;
+  }
+  
+  
+  .slide {
+    width: calc(100%/5);
+    height: 100%;
+    background: #fc56c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 700;
+    float: left;
+    opacity: 0.9;
+    background-size: cover;
+   
+                                                                                 
+  }
+  
+  .button {
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid black;
+    position: absolute;
+    cursor: pointer;
+  
+  }
+  
+  .prev {
+    border-left: 2px solid black;
+    left: 10px;
+    transform: rotate(-45deg);
+    top: 300px;
+   display: none;
+  }
+  
+  .next {
+    border-right: 2px solid black;
+    right: 50%;
+    transform: rotate(45deg);
+    top: 300px;
+    display: none;
+  }
+  .kajal{
+    width: 30%;
+    position: relative;
+    margin-left: 63%;
+    animation: fadeOutLeft 7s linear infinite
+
+  }
+  .more{
+    width: 12% !important;
+    position: absolute;
+    animation: fadeOutLeft 7s linear infinite
+  }
+  @keyframes fadeOutLeft {
+    from { opacity: 1 }
+    to {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+ /* Add your CSS styles here */
+ .menu-toggle {
+    display: none; /* Hide the checkbox by default */
+}
+
+.menu-icon {
+    cursor: pointer;
+}
+
+/* Style the mobile menu */
+.menu {
+    display: none;
+    /* Add your styling for the menu */
+}
+
+/* Show the menu when the checkbox is checked */
+.menu-toggle:checked + .mobile-bar .menu {
+    display: block;
+}
+ 
+ 
