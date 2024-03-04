@@ -12,8 +12,8 @@ body{
 .btn {
     font-family: "figtree", sans-serif;
     color: #fff !important;
-    /* background-color: rgb(247, 78, 161) !important; */
-    background-color: rgb(175, 9, 84) !important;
+    background-color: rgb(247, 78, 161) !important;
+    /* background-color: rgb(175, 9, 84) !important; */
     font-weight: 700;
     font-size: 16px;
     border-radius: 0;
@@ -756,8 +756,8 @@ p {
 /* ===== */
 .dmOYQm {
     width: 100%;
-    /* margin-bottom: 2.5rem; */
-    padding: 9rem 0px 4.5rem;
+    /* margin-bottom: 3rem; */
+    padding: 5rem 0px 5rem;
     
 }
 .iaycda {
@@ -914,7 +914,7 @@ margin-top: 8%;
 .fpQsSy {
     position: relative;
     max-width: 100%;
-    padding: 5.5rem 8% 3rem;
+    padding: 5.5rem 8% 10rem;
     /* z-index: 5; */
 }
 .ZVfqa {
@@ -1015,11 +1015,11 @@ margin-top: 8%;
 }
 .hGHAxY a {
     background: transparent;
-    /* border: 2px solid rgb(247, 78, 161); */
-    border: 2px solid rgb(175, 9, 84);
+    border: 2px solid rgb(247, 78, 161);
+    /* border: 2px solid rgb(175, 9, 84); */
     padding: 0.8rem 2.25rem;
-    /* color: rgb(247, 78, 161); */
-    color: rgb(175, 9, 84);
+    color: rgb(247, 78, 161);
+    /* color: rgb(175, 9, 84); */
     font-family: Figtree, sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -1124,15 +1124,23 @@ color: rgb(247, 78, 161);
     margin-top: 15%;
 }
 /* ==================== */
+
+/* ====about-us====== */
+
 .jABQGp {
     position: relative;
     margin: 0px auto;
+    background-image: url(assets/gradient-bg-services.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 .gmoqIO {
-    /* position: absolute; */
+    position: absolute;
     top: 50%;
     left: 50%;
-    /* transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -1153,15 +1161,14 @@ color: rgb(247, 78, 161);
     max-width: 80%;
     height: 100%;
 }
-
 .bXXeaa {
-    width: 46%;
+    width: 40%;
 }
 .fNPpSW {
     color: rgb(255, 255, 255);
     font-family: Circular, sans-serif;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 26px;
     letter-spacing: 0.22rem;
     text-transform: uppercase;
     margin-bottom: 4rem;
@@ -1172,16 +1179,15 @@ color: rgb(247, 78, 161);
 }
 .fmyQQj {
     position: relative;
-    color: rgb(0, 0, 0);
+    color: rgb(3 3 3 / 60%);
     font-family: Sofia, sans-serif;
     font-size: 36px;
     font-weight: 900;
     letter-spacing: -0.2rem;
     margin-bottom: 3rem;
     cursor: pointer;
-    opacity: 0.2;
+    /* opacity: 0.2; */
     transition: opacity 0.3s ease 0s, color 0.3s ease 0s;
-   ;
 }
 .dGMEHi {
     background: transparent;
@@ -1203,7 +1209,7 @@ color: rgb(247, 78, 161);
 }
 .erPLhU {
     position: relative;
-    width: 50%;
+    width: 55%;
 }
 .bTXyGy.active {
     color: rgb(255, 255, 255);
@@ -1230,27 +1236,45 @@ color: rgb(247, 78, 161);
     width: 100%;
     padding-top: 64.8601%;
 }
-.bKUJjH > * {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    object-fit: cover;
-}
 .gatsby-image-wrapper * {
     transition: opacity 500ms ease 0s !important;
 }
 .ZSuxQ {
-    font-family: figtree, sans-serif;
+    font-family: Circular, sans-serif;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.75;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
-* {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
+.jZcyZq {
+    background: transparent;
+    border: 0.2rem solid rgb(255, 255, 255);
+    padding: 1.8rem 3.25rem;
+    color: rgb(255, 255, 255);
+    font-family: Circular, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    border-radius: 3rem;
+    margin-top: 2.5rem;
+    min-width: 20rem;
+    text-align: center;
+    display: none;
+    transition: background-color 0.25s ease 0s, color 0.25s ease 0s;
+}
+.fkdMTk {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+.fkdMTk::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 62.9371%;
 }
 .fkdMTk > * {
     position: absolute;
@@ -1260,27 +1284,29 @@ color: rgb(247, 78, 161);
     left: 0px;
     object-fit: cover;
 }
-.fkdMTk::after {
-    content: "";
-    display: block;
-}
-.bEIojp {
+.DTFuP {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
     overflow: hidden;
     will-change: transform;
 }
-.sus{
+.isAVjN {
+    position: absolute;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
+    will-change: transform;
 }
-.imgggbg{
-    background-image: url('assets/gradient-bg-services.webp');
-    background-repeat: no-repeat;
-    width: 100%;
+.haagBN {
+    position: absolute;
     height: 100%;
-    background-size: cover;
+    z-index: 1;
 }
+/* ====about-us====== */
 
 /* ====why-vrnl=== */
 .eMljeX {
@@ -1407,6 +1433,7 @@ font-family: figtree, sans-serif;
     font-size: 31px;
     font-weight: 700;
     color: #373737;
+    PADDING: 7%;
 }
 .qwwRpp span{
 color: rgb(247, 78, 161);
@@ -1476,8 +1503,8 @@ color: rgb(247, 78, 161);
 .otNoI {
     /* background: rgb(247, 78, 161); */
     /* border: 0.2rem solid rgb(247, 78, 161); */
-    border: 2px solid rgb(175, 9, 84);
-    background-color: rgb(175, 9, 84);
+    border: 2px solid rgb(247, 78, 161);
+    background-color: rgb(247, 78, 161);
     padding: 1rem 1.5rem;
     color: rgb(255, 255, 255);
     font-family: figtree, sans-serif;
@@ -1567,7 +1594,7 @@ color: rgb(247, 78, 161);
   }
   
   h1 {
-    /* text-align: center; */
+
     margin: 30px 0;
   }
   
@@ -1575,8 +1602,7 @@ color: rgb(247, 78, 161);
   .slider-wrapper {
     width: 50%;
     height: 100%;
-  
-    /* background-image: url(/assets/horse-racing-api.webp) !important; */
+
     background-repeat: no-repeat;
   
     overflow: hidden;
@@ -1634,18 +1660,10 @@ color: rgb(247, 78, 161);
     top: 300px;
     display: none;
   }
-  /* .kajal{
-    width: 30%;
-    position: relative;
-    margin-left: 63%;
-    animation: fadeOutLeft 7s linear infinite
-
-  } */
+  
   .more{
     width: 50%;
-    /* position: absolute; */
-    /* top: 0;
-    right: 10px; */
+
     animation: fadeOutLeft 7s linear infinite
   }
   @keyframes fadeOutLeft {
@@ -1656,24 +1674,113 @@ color: rgb(247, 78, 161);
     }
 }
 
- /* Add your CSS styles here */
  .menu-toggle {
-    display: none; /* Hide the checkbox by default */
+    display: none; 
 }
 
 .menu-icon {
     cursor: pointer;
 }
 
-/* Style the mobile menu */
 .menu {
     display: none;
-    /* Add your styling for the menu */
+  
 }
 
-/* Show the menu when the checkbox is checked */
 .menu-toggle:checked + .mobile-bar .menu {
     display: block;
 }
  
  
+/* ============= */
+.dsWWTh {
+    position: relative;
+    margin: 0px auto;
+    padding-top: 0%;
+}
+.fadxMJ {
+    width: 100%;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+}
+.gFPxFQ {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+}
+.bYTmHr {
+    width: 30%;
+    margin-bottom: 6rem;
+    border: 1px solid rgb(36, 36, 36);
+    margin-right: 3%;
+    transition: background-color 0.5s ease 0s;
+}
+.dRpjc {
+    width: 100%;
+}
+.bYTmHr .WrapBlogImage-sc-1ijdqfi-8 {
+    position: relative;
+}
+.bYTmHr .WrapBlogImage-sc-1ijdqfi-8::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 62.686%;
+}
+.bYTmHr .WrapBlogImage-sc-1ijdqfi-8 > * {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+}
+.gatsby-image-wrapper * {
+    transition: opacity 500ms ease 0s !important;
+}
+.bYTmHr img {
+    transition: transform 0.5s ease 0s !important;
+}
+.ctJwqN {
+    padding: 1.5rem;
+}
+.ctJwqN span {
+    color: rgb(247, 78, 161);
+    font-family: Figtree, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.75;
+}
+.ctJwqN h2 {
+    color: rgb(36, 36, 36);
+    font-family: Figtree, sans-serif;
+    font-size: 17px;
+    line-height: 1.33;
+    letter-spacing: -0.075rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0px;
+    transition: color 0.25s ease 0s;
+}
+.bYTmHr:hover{
+    background-color: rgb(247, 78, 161);
+}
+.bYTmHr:hover .ItemDesc-sc-1ijdqfi-10 h2 {
+    color: rgb(255, 255, 255);
+}
+.bYTmHr:hover .ItemDesc-sc-1ijdqfi-10 span {
+    color: rgb(55, 55, 55);
+}
+/* ===================== */
