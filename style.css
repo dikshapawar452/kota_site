@@ -757,7 +757,7 @@ p {
 .dmOYQm {
     width: 100%;
     /* margin-bottom: 3rem; */
-    padding: 5rem 0px 5rem;
+    padding: 5rem 0px 0rem;
     
 }
 .iaycda {
@@ -902,7 +902,7 @@ p {
 }
 .gJNZwu{
 display: flex;
-margin-top: 8%;
+margin-top: 4%;
 }
 /* --------------- */
 
@@ -1168,7 +1168,7 @@ color: rgb(247, 78, 161);
     color: rgb(255, 255, 255);
     font-family: Circular, sans-serif;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 35px;
     letter-spacing: 0.22rem;
     text-transform: uppercase;
     margin-bottom: 4rem;
@@ -1783,4 +1783,4 @@ color: rgb(247, 78, 161);
 .bYTmHr:hover .ItemDesc-sc-1ijdqfi-10 span {
     color: rgb(55, 55, 55);
 }
-/* ===================== */
+
