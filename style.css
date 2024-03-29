@@ -20,3 +20,42 @@
   .social-links{
     margin-left: -20px;
   }
+
+
+/* 
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+   */
+  .swiper-container {
+    position: relative;
+    width: 90vw;
+    height: 300px;
+  }
+  
+  .swiper-container > .swiper-slide__content {
+    position: absolute;
+    top: 0;
+  }
+  
+  .swiper-slide {
+    height: 300px;
+    display: flex;
+    background: #eee;
+    align-items: center;
+    justify-content: center;
+    transition: all 200ms linear;
+    transform: scale(0.8);
+  }
+  .swiper-slide.swiper-slide-active {
+    transform: scale(1);
+    background: #fc0;
+  }
+  
+  .swiper-slide__content {
+    height: 300px;
+  }

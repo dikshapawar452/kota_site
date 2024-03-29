@@ -8,6 +8,8 @@
 <link rel=stylesheet href=style.css>
 <link rel=stylesheet href=Responsive.css>
 <link rel=icon type=image/png sizes=16x16 href=assets/vrnlexch.ico>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.css'>
 </head>
 <body>
 <div>
@@ -814,5 +816,59 @@ Connect With us </button>
 <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js></script>
 <script>$((function(){var e=$(".inner-wrapper");$(".slide");function t(){e.css("transition","left 0.9s ease-in"),e.css("left","-200%"),setTimeout((function(){e.css("left","-100%"),e.css("transition",""),$(".slide").last().after($(".slide").first())}),400)}var s=setInterval(t,4e3);$(".prev").on("click",(function(){clearInterval(s),e.css("transition","left 0.9s ease-out"),e.css("left","0%"),setTimeout((function(){e.css("left","-100%"),e.css("transition",""),$(".slide").first().before($(".slide").last())}),400),s=setInterval(t,4e3)})),$(".next").on("click",(function(){clearInterval(s),t(),s=setInterval(t,4e3)}))}))</script>
 <script>function smoothScroll(o){const e=document.querySelector(o);window.scrollTo({top:e.offsetTop,behavior:"smooth"}),document.querySelector(".menu-toggle").checked=!1}</script>
+
+
+
+
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1
+        </div>
+        <div class="swiper-slide">Slide 2
+        </div>
+        <div class="swiper-slide">Slide 3
+        </div>
+        <div class="swiper-slide">Slide 4
+        </div>
+        <div class="swiper-slide">Slide 5
+        </div>
+    </div>
+      <!-- If we need navigation buttons -->
+<div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js'></script><script  src="./script.js"></script>
+
+<script>
+    $(document).ready(function() {
+  // Assign some jquery elements we'll need
+  var $swiper = $(".swiper-container");
+  var $bottomSlide = null; // Slide whose content gets 'extracted' and placed
+  // into a fixed position for animation purposes
+  var $bottomSlideContent = null; // Slide content that gets passed between the
+  // panning slide stack and the position 'behind'
+  // the stack, needed for correct animation style
+
+  var mySwiper = new Swiper(".swiper-container", {
+    spaceBetween: 1,
+    slidesPerView: 3,
+    centeredSlides: true,
+    roundLengths: true,
+    loop: true,
+    loopAdditionalSlides: 30,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    }
+  });
+});
+</script>
+
 </body>
 </html>
